@@ -5,7 +5,15 @@ date: 2021-09-29
 output: github_document
 ---
 
-Load tidyverse library
+Load the tidyverse library.
 ```{r setup, message = FALSE}
 library(tidyverse)
 ```
+
+## Question 1
+
+The code chunk below produces a data frame that includes:
+a random sample of size 10 from a standard Normal distribution, 
+a logical vector indicating whether elements of the sample are greater than 0,
+a character vector of length 10,
+and a factor vector of length 10, with 3 different factor “levels”
